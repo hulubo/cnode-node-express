@@ -1,0 +1,3 @@
+const eventMapper = {
+    item: 'item',
+}

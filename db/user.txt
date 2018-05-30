@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "username": "gua",
+    "password": "6aa61ba1213b734b79cd659110994562d085d326",
+    "note": "",
+    "role": 2,
+    "avatar": "245a05b4f3595a3231af58c3762b81fb"
+  },
+  {
+    "id": 2,
+    "username": "lin",
+    "password": "6aa61ba1213b734b79cd659110994562d085d326",
+    "note": "",
+    "role": 2,
+    "avatar": "c85c42ee3f09dc6dbf8f7f2cbcb2f664"
+  },
+  {
+    "id": 3,
+    "username": "liaopeng",
+    "password": "7d309320c97fb5f202a5437a70c039936322628e",
+    "note": "",
+    "role": 2,
+    "avatar": ""
+  }
+]

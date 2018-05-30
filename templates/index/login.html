@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+    <!--flash | length 获取 flash 中 key 的数量-->
+    {% if (flash | length) > 0 %}
+    <p>{{ flash.message }}</p>
+    {% endif %}
+    <form action="/login" method="post">
+        <input type="hidden" name="next_url" value="{{ next_url }}">
+        <p>
+            <input type="text" name="username" placeholder="username">
+        </p>
+        <p>
+            <input type="text" name="password" placeholder="password">
+        </p>
+        <p>
+            <button>登录</button>
+        </p>
+    </form>
+</body>
+</html>
